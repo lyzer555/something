@@ -1,0 +1,45 @@
+/* change the background color */
+.navbar-light {
+    background-color:white;
+    -webkit-box-shadow: -2px 6px 7px -6px rgba(1,71,117,1);
+-moz-box-shadow: -2px 6px 7px -6px rgba(1,71,117,1);
+box-shadow: -2px 6px 7px -6px rgba(1,71,117,1);
+}
+/* change the brand and text color */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-text {
+    color: gray;
+}
+/* change the link color */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+
+.btn-showJobs {
+    background-color: #f77d0e;
+    color: white;
+    border:none;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-right:30px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.btn-showJobs:hover {
+    background-color: #e07e14;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
